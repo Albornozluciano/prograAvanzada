@@ -13,6 +13,6 @@ public class Persona {
     }
 
     private void ausente() {
-        System.out.println("Ausente profe!");
+        System.out.println("Ausenteeeee profe!");
     }
 }
