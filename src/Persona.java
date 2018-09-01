@@ -9,7 +9,7 @@ public class Persona {
     }
 
     private void presente() {
-        System.out.println("Presente profe!");
+        System.out.println("Presenteeeeee profe!");
     }
 
     private void ausente() {
