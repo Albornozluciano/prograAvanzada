@@ -10,7 +10,7 @@ public class WordWrapper {
             return calcular(linea,espacio,i);
         }
 
-        if (linea.charAt(i)  == ' '){
+        if (linea.charAt(i)   == ' '){
             return calcular(linea,i,i);
         }
 
