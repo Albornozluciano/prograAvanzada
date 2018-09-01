@@ -8,7 +8,11 @@ public class Persona {
         return "Hola, " + nombre + "!";
     }
 
-    private String presente(){
-        return "Presente profe!";
+    private void presente() {
+        System.out.println("Presente profe!");
+    }
+
+    private void ausente() {
+        System.out.println("Ausente profe!");
     }
 }
