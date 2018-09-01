@@ -7,4 +7,8 @@ public class Persona {
     private String saludar(String nombre){
         return "Hola, " + nombre + "!";
     }
+
+    private String presente(){
+        return "Presente profe!";
+    }
 }
