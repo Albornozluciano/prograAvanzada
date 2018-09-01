@@ -9,10 +9,10 @@ public class Persona {
     }
 
     private void presente() {
-        System.out.println("Presenteeeee profe!");
+        System.out.println("Presente profe!");
     }
 
     private void ausente() {
-        System.out.println("Ausenteeeeeeeee profe!");
+        System.out.println("Ausente profe!");
     }
 }
