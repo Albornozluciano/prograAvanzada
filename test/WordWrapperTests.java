@@ -27,5 +27,6 @@ public class WordWrapperTests {
         Assert.assertEquals("casa\ncasa", miWrapper.wrap("casa casa", 4));
         Assert.assertEquals("casa\ncaso\nna", miWrapper.wrap("casa casona", 4));
         Assert.assertEquals("casa\ncasa", miWrapper.wrap("casa casa", 5));
+        Assert.assertEquals("ca sa\ncasa", miWrapper.wrap("ca    sa casa", 7));
     }
 }

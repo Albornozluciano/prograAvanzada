@@ -1,6 +1,7 @@
 public class WordWrapper {
     public static String wrap(String linea, int i) {
-        linea = linea.replace("  ", " ").trim();
+        if(linea.contains("  "))
+            return wrap(linea.replace("  ", " ").trim(), i);
         if (linea.length() <= i) {
             return linea;
         }
